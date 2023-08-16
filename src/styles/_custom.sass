@@ -1,19 +1,272 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+.color-blanco
+  background-color: white
+
+.clr_sistem
+  color: #12263F !important
+
+.clr_tarjeta_morada
+  background-color: #E4DDFA
+
+.v-card--purple
+  &::before
+    background-color: #E4DDFA !important
+
+.tarjeta--cyan
+  background-color: #E6F7FE
+
+//Puntos imagen infografía interactiva
+.img-infografica__item__dot
+  &::before, &::after
+    background-color: orange !important 
+
+.bg-cyan
+  &::before    
+    background-color: #E6F7FE
+  
+.customColorA
+  background-color: #EAE5FB
+  &::before
+    background-color: #7E5EE3
+
+.customColorB
+  background-color: #D6F4F8
+  &::before
+    background-color: #00BCD4
+
+.customColorC
+  background-color: #CDEDFC
+
+.clr--azul
+  background-color: #81D4FA
+
+.tarjeta--azul  
+  padding: 3rem
+  background-color: #81D4FA
+
+.tarjeta--purple  
+  padding: 3rem
+  background-color: #F3F0FD
+  border-radius: 12px;
+
+.tarjeta--purple2   
+  background-color: #F3F0FD
+
+.lista-ol--cuadro__vineta
+  background-color: #ff8f00 !important
+
+ 
+.tabs-a.color-secundario .tabs-a__tab__selected
+  color: white !important
+
+.tabs-a__tab
+  &:hover
+    color: white !important
+
+.gradient_A
+  background: linear-gradient(180deg, rgba(216,213,227,1) 0%, rgba(223,240,249,1) 100%)
+
+.lista-ul--color
+  li
+    i
+      color: $color-acento-botones !important
+
+.lista-ol--cuadro__vineta
+  background-color: $color-secundario
+
+.tarjeta-color-primario
+  background-color: $color-primario
+
+//Custom timeline
+.pasos-b.color-secundario .pasos-b__header__item--active .pasos-b__header__item__dot span
+  color: white !important
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: $color-acento-contenido !important
+  background-color: $color-acento-contenido !important
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: $color-acento-contenido !important
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: $color-acento-contenido !important
+
+.VH-center
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+// Tarjeta Hover ////////////////////
+.tarjeta-cyan
+  background-color: #CDEDFC
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #00BCD4
+    .tarjetaTxt
+      border-top: 7px solid #00BCD4
+
+.tarjeta-purpura
+  background-color: #E4DDFA
+  .tarjetaContent
+    .tarjetaImg
+      border-bottom: 7px solid #7E5EE3
+    .tarjetaTxt
+      border-top: 7px solid #7E5EE3
+
+
+$tarjeta-dimension: 300px
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  width: $tarjeta-dimension
+  height: $tarjeta-dimension
+  border-radius: 0    
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      justify-content: center
+      align-items: center          
+      width: $tarjeta-dimension
+      height: $tarjeta-dimension
+      padding: 2rem
+    .tarjetaImg     
+    .tarjetaTxt
+      text-align: center
+     
+
+  &:hover
+    .tarjetaContent
+      top: -($tarjeta-dimension)
+
+
+//linea de tiempo A ////////////////////
+.linea-tiempo-a__icon__container span
+  color: white !important
+
+//Custom BG
+.customBg
+  position: relative
+  padding: 2rem    
+  z-index: 2
+  &::before        
+    content: ""
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: $color-primario
+    z-index: -1
+
+// Custom number
+.c-number
+  padding: 0.85rem 1.3rem 
+  color: white
+  background-color: #7E5EE3
+  border-radius: 999px
+
+
+
+//CustomCard
+.m-rigth
+  margin-right: -5rem 
+  @media only screen and ( max-width: 990px)
+    margin: 0
+    margin-top: -5rem
+
+.m-left
+  margin-left: -5rem 
+  @media only screen and ( max-width: 990px)
+    margin: 0
+    margin-top: -5rem
+
+.rigth-bubble
+  position: relative
+  width: 100%
+  padding: 3rem 2rem 
+  -webkit-border-radius: 35px
+  -webkit-border-bottom-right-radius: 0
+  -moz-border-radius: 35px
+  -moz-border-radius-bottomright: 0
+  border-radius: 35px
+  border-bottom-right-radius: 0
+  box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.4)
+  background-color: white
+  z-index: 5
+
+.left-bubble
+  width: 100% 
+  padding: 3rem 2rem 
+  -webkit-border-radius: 35px
+  -webkit-border-bottom-left-radius: 0
+  -moz-border-radius: 35px
+  -moz-border-radius-bottomleft: 0
+  border-radius: 35px
+  border-bottom-left-radius: 0
+  box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.4)
+  background-color: white
+  z-index: 2
+
+
+// Vertical card
+.h-100
+  height: 100% !important
+
+.v-card
+  position: relative 
+  height: 100%
+  &::before
+    content: ""
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 0
+    left: 0
+    width: 100%    
+    height: calc( 100% - 45px )
+    border-radius: 12px
+    background-color: #CDEDFC
+    z-index: 0
+  &__img
+    position: relative
+    width: 100%    
+    figure
+      img
+        position: relative
+        width: 90px            
+  &__body
+    position: relative
+    padding: 2rem    
+    p
+      position: relative
 
+//horizontal card-avatar
+.h-card
+  position: relative
+  width: 100%
+  height: 100%
+  padding: 2rem
+  display: flex
+  justify-content: start
+  align-items: center 
+  &::before    
+    content: ""
+    position: absolute
+    width: calc( 100% - 80px) 
+    height: 100%
+    top: 0
+    right: 0      
+    background-color: #E6F7FE
+    border-radius: 12px
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-
-  100%
-    transform: translateY(0px)
+  &__img    
+    position: relative
+    flex: 0 0 auto
+    width: auto
+    margin-right: 1.5rem
+  &__body
+    position: relative
