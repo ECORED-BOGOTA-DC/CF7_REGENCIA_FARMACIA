@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
       h1 Proceso de dispensación de productos farmacéuticos
@@ -21,13 +21,17 @@
     .row.justify-content-center
       .col-lg-9
         .titulo-sexto.color-acento-botones.mb-5
-          h5 Secuencia de los procesos generales del servicio y establecimiento farmacéutico
+          h5 Figura 5
+          span Secuencia de los procesos generales del servicio y establecimiento farmacéutico
         figure
           img(src="@/assets/tema4/img_4_02.svg", alt="alt", style="width:700px;").m-auto
 
+        p.text-center Nota. Sena (2021)
+
+
     separador
 
-    #t_4_1.titulo-segundo
+    #t_4_1.titulo-segundo.color-acento-contenido
       h2 4.1 Normatividad del proceso de dispensación
 
     p.mb-5 Los requisitos que deben cumplir el proceso general de los servicios y los establecimientos farmacéuticos, se pueden encontrar en las siguientes normas:
@@ -369,7 +373,7 @@
 
     separador
 
-    #t_4_2.titulo-segundo
+    #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2 Obligaciones y prohibiciones del dispensador
 
     p.mb-5 Durante el proceso de dispensación, el profesional que realice dicha tarea, debe cumplir con unas obligaciones y evitar caer en algunos errores, los cuales son presentados en la siguiente imagen.

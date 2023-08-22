@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Normatividad del proceso de dispensación de productos farmacéuticos
@@ -120,9 +120,12 @@
     .row.justify-content-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-botones
-          h5 Uso seguro de los medicamentos
+          h5 Figura 2
+          span Uso seguro de los medicamentos
         figure.mb-5
           img(src="@/assets/tema3/img_3_03.svg", alt="alt", style="width:1100px").m-auto
+
+        p.text-center Nota. Sena (2021)
 
     .row.mb-5
       .col-lg-8
@@ -138,20 +141,30 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-botones
-          h5 Información O.M.S relacionada con los errores de dispensación y su costo
+          h5 Figura 3
+          span Información O.M.S relacionada con los errores de dispensación y su costo
         .cajon.customColorA.p-4.mb-4
           p.mb-0 La Organización Mundial de la Salud (OMS), informó que los errores en dispensación generan un costo anual de #[strong(style="color:#7E5EE3;") US$42.000 millones, en un mundo en el que cuatro de cada diez pacientes sufren complicaciones en la atención primaria de la salud y en los servicios ambulatorios]. Los errores más frecuentes y perjudiciales, advertía la entidad, se encuentran relacionados con el diagnóstico, la prescripción y el uso de medicamentos.
         figure.mb-3
           img(src="@/assets/tema3/img_3_05.svg", alt="alt", style="width:100%;").m-auto
 
+        p.text-center Nota. Sena (2021)
+
+
     p.mb-5 Ahora, como resultado de una investigación, se conocen las principales causas de los errores de dispensación, donde intervienen cada uno de los actores de este proceso, desde la prescripción realizada por los médicos, hasta el usuario o paciente final.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Principales causas de los errores en la dispensación de productos farmacéuticos
+          h5 Figura 4
+          span Principales causas de los errores en la dispensación de productos farmacéuticos
         figure.mb-5
           img(src="@/assets/tema3/img_3_06.svg", alt="alt", style="width:1200px;").m-auto
+
+        p.text-center Nota. <a href="https://www.mincit.gov.co/" target="_blank"> https://bit.ly/2U3speP </a>
+
+        
+
 
     p.mb-0 En la figura anterior, se pudo observar que las causas más comunes se presentan en la etapa de revisión y entrega de los medicamentos, debido a que el principal error en dispensación es el de la equivocación en la lectura e interpretación de las características de los medicamentos: nombre, concentración y vías de administración.
 

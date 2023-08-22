@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
       h1 Proceso de distribución de medicamentos y dispositivos médicos
@@ -54,7 +54,7 @@
           img(src="@/assets/tema5/img_5_02.svg", alt="alt").m-auto
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--purple2")
-      .row(titulo="Sistema de distribución por existencias en los servicios (stock)")
+      .row(titulo="Sistema de distribución por existencias en los servicios (<i>stock</i>)")
         .col-lg-3
           figure
             img(src="@/assets/tema5/img_5_03.svg", alt="alt", style="width:200px;").m-auto
@@ -65,7 +65,7 @@
               | Para una distribución interna, se debe conservar una provisión que puede ser una cantidad determinada de medicamentos y de dispositivos médicos de los más empleados y que son restablecidos por el servicio farmacéutico o depósito.
             li
               i.fas.fa-atom
-              | El almacenamiento o stock de los medicamentos y dispositivos médicos puede llevarse a cabo de varias formas: con carros de paro (reanimación) y los que se pueden manejar en cada uno de los servicios hospitalarios: urgencias, cirugía, hospitalización, rayos X, laboratorio clínico, unidad de cuidados intensivos.
+              | El almacenamiento o <em>stock</em> de los medicamentos y dispositivos médicos puede llevarse a cabo de varias formas: con carros de paro (reanimación) y los que se pueden manejar en cada uno de los servicios hospitalarios: urgencias, cirugía, hospitalización, rayos X, laboratorio clínico, unidad de cuidados intensivos.
             li
               i.fas.fa-atom
               | Este sistema de distribución es de disponibilidad inmediata de los medicamentos y dispositivos médicos para las enfermeras y médicos y supone una ventaja para las enfermeras y médicos y, por lo tanto, disminuye la cantidad de fórmulas médicas y de pedidos.       
@@ -96,7 +96,7 @@
             ul.lista-ul--color
               li.mb-4
                 i.fas.fa-atom
-                | Con la formulación individual, se distribuyen algunos medicamentos y se puede mantener un stock de medicamentos, de envases de dosis múltiples, uso común y dispositivos médicos en el servicio de hospitalización.
+                | Con la formulación individual, se distribuyen algunos medicamentos y se puede mantener un <em>stock</em> de medicamentos, de envases de dosis múltiples, uso común y dispositivos médicos en el servicio de hospitalización.
               li.mb-4
                 i.fas.fa-atom
                 | Si se combinan los sistemas de distribución, algunas instituciones pueden validarlos, sobre todo donde no existan condiciones para implementar el sistema de distribución de medicamentos por dosis unitaria (SDMDU).         
@@ -112,14 +112,14 @@
                 | Este sistema de distribución utiliza de forma eficiente y racional, los recursos humanos involucrados en el proceso.
               li.mb-4
                 i.fas.fa-atom
-                | Disminuye el costo hospitalario asociado con la medicación, porque minimiza la cantidad de los inventarios y el stock de los medicamentos.        
+                | Disminuye el costo hospitalario asociado con la medicación, porque minimiza la cantidad de los inventarios y el <em>stock</em> de los medicamentos.        
               li.mb-4
                 i.fas.fa-atom
                 | Permite un mejor control y seguimiento del tratamiento a los pacientes, a través del perfil farmacoterapéutico.
 
     separador
 
-    #t_5_1.titulo-segundo
+    #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1 Infraestructura necesaria para el proceso de distribución
 
     p.mb-5 Para el correcto funcionamiento del proceso de distribución, los requisitos de infraestructura son los siguientes: 
@@ -156,7 +156,7 @@
 
     separador
 
-    #t_5_2.titulo-segundo
+    #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2 Proceso de reempaque de medicamentos
 
     .row.g-0.justify-content-center.align-items-center.mb-5

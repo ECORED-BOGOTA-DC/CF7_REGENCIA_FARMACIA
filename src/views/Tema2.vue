@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
       h1 Política Farmacéutica Nacional
@@ -27,7 +27,7 @@
 
     separador
 
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Antecedentes de la Política Farmacéutica Nacional
 
     p.mb-5 La siguiente línea de tiempo nos presenta los antecedentes de la Política Farmacéutica Nacional, desarrollada entre los años 70 hasta la actualidad:
@@ -36,7 +36,7 @@
 
     separador
 
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Marco conceptual y enfoque
       
     .tarjeta.gradient_A.p-4.p-md-5.mb-5
@@ -58,7 +58,7 @@
 
     separador
 
-    #t_2_3.titulo-segundo
+    #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Diagnóstico de la situación farmacéutica nacional
 
     .row.mb-5
@@ -75,14 +75,17 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-botones
-          h5 Debilidades de la política farmacéutica nacional      
+          h5 Figura 1
+          span Debilidades de la política farmacéutica nacional      
         
         figure.mb-5
-          img(src="@/assets/tema2/img_2_3_02.svg", alt="alt", style="width:1000px;").m-auto    
+          img(src="@/assets/tema2/img_2_3_02.svg", alt="alt", style="width:1000px;").m-auto 
+
+        p.text-center Nota. Sena (2021)
 
     separador
 
-    #t_2_4.titulo-segundo
+    #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Estrategias para contrarrestar las debilidades de la Política Farmacéutica Nacional  
 
     .row.mb-5

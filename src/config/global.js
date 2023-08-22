@@ -130,6 +130,12 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -164,46 +170,52 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema:
+        'Historia de la farmacia: origen de los medicamentos y evolución del sector farmacéutico',
       referencia:
-        'González Núñez, J. (2009). La farmacia en la historia, una aproximación desde la ciencia, el arte y la literatura. https://esferasalud.com/wp-content/uploads/2014/03/Historia-de-la-farmacia.pdf',
+        'González Núñez, J. (2009). <i>La farmacia en la historia, una aproximación desde la ciencia, el arte y la literatura.</i>',
       tipo: 'PDF',
-      descarga: 'downloads/Historia-de-la-farmacia.pdf',
+      link:
+        'https://esferasalud.com/wp-content/uploads/2014/03/Historia-de-la-farmacia.pdf',
     },
     {
-      tema: '',
+      tema:
+        'Historia de la farmacia: origen de los medicamentos y evolución del sector farmacéutico',
       referencia:
-        'EVILAF Escuela para Farmacéuticos. (2017). Historia de la farmacia (parte 1) (Video). Youtube. https://www.youtube.com/watch?v=H6PLv9wZGTc ',
+        'EVILAF Escuela para Farmacéuticos. (2017). <i>Historia de la farmacia (parte 1).</i> Youtube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=H6PLv9wZGTc ',
+      link: 'https://www.youtube.com/watch?v=H6PLv9wZGTc',
     },
     {
-      tema: '',
-      referencia:
-        'CONPES 155. (2012). Política Farmacéutica Nacional. https://colaboracion.dnp.gov.co/CDT/Conpes/Social/155.pdf',
+      tema: 'Política Farmacéutica Nacional',
+      referencia: 'CONPES 155. (2012). <i>Política Farmacéutica Nacional.</i>',
       tipo: 'PDF',
-      descarga: 'downloads/155.pdf',
+      link: 'https://colaboracion.dnp.gov.co/CDT/Conpes/Social/155.pdf',
     },
     {
-      tema: '',
+      tema:
+        'Normatividad del proceso de dispensación de productos farmacéuticos',
       referencia:
-        'Decreto 0780 de 2016. (2016). Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
+        'Decreto 0780 de 2016. (2016). <i>Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social.</i>',
       tipo: 'PDF',
-      descarga: '/downloads/Decreto_0780_2016.pdf',
+      link:
+        'https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf',
     },
     {
-      tema: '',
+      tema:
+        'Normatividad del proceso de dispensación de productos farmacéuticos',
       referencia:
-        'Resolución 1403 de 2007. (2007).  Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. https://www.invima.gov.co/documents/20143/453029/Resoluci%C3%B3n+1403+de+2007.pdf/6b2e1ce1-bb34-e17f-03ef-34e35c126949',
+        'Resolución 1403 de 2007. (2007).  <i>Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones.</i> ',
       tipo: 'PDF',
-      descarga: '/downloads/Resolución_1403_2007.pdf',
+      link:
+        'https://www.invima.gov.co/documents/20143/453029/Resoluci%C3%B3n+1403+de+2007.pdf/6b2e1ce1-bb34-e17f-03ef-34e35c126949',
     },
     {
-      tema: '',
+      tema: 'Funciones del Tecnólogo en Regencia de Farmacia',
       referencia:
-        'Ley 485 de 1998. (1998). Por medio de la cual se reglamenta la profesión de Tecnólogo en Regencia de Farmacia y se dictan otras disposiciones. http://www.saludpereira.gov.co/medios/Ley_485_de_1998.pdf',
+        'Ley 485 de 1998. (1998). Por medio de la cual se reglamenta la profesión de Tecnólogo en Regencia de Farmacia y se dictan otras disposiciones.',
       tipo: 'PDF',
-      descarga: '/downloads/Ley_485_de_1998.pdf',
+      link: ' http://www.saludpereira.gov.co/medios/Ley_485_de_1998.pdf',
     },
   ],
   glosario: [
@@ -300,15 +312,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -316,10 +328,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Edwing Amir Moreno Moreno',
+          cargo: 'Experta temático',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo:
+            'Diseñadora Instruccional – Revisora Metodológica y Pedagógica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Revisión y corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -327,28 +369,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Manuel Felipe Echavarria Orozco',
+          cargo: 'Desarrollador Fullstack - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisua',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -356,22 +404,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validadora de recursos educativos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validadora de recursos educativos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

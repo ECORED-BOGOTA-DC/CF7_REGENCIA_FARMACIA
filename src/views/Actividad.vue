@@ -5,19 +5,19 @@
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
+        .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Actividad didáctica de repaso, normatividad, proceso de dispensación y distribución.
-        p.mb-4 El proposito de esta actividad es evidenciar el grado de comprensión de la temática relacionada con la normatividad del proceso de dispensación y distribución. 
-        .tarjeta.tarjeta--azul.p-3
+        .titulo-segundo.color-acento-contenido
+          h2 Normativa en la regencia de farmacia.
+        p.mb-4 Manejar las políticas y normativas vigentes para la correcta operación de la entrega de productos farmacéuticos, con la finalidad de que este sea un proceso prestado con calidad. 
+        .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Opción múltiple con única respuesta
+              p.fw-bold.mb-0 Verdadero o falso
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Iniciar
                 i.fas.fa-puzzle-piece  
 
