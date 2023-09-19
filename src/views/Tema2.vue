@@ -2,246 +2,206 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Política Farmacéutica Nacional
-
-    p.mb-4 De acuerdo con la OMS:
-
+    p.mb-4(data-aos="fade-right") De acuerdo con la OMS:
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.customColorB.p-4       
+        .cajon.customColorB.p-4(data-aos="fade-right")  
           p.mb-0 Una Política Farmacéutica Nacional es un compromiso con un objetivo y una guía de acción. Expresa y prioriza las metas a medio y largo plazo establecidas por el gobierno para el sector farmacéutico, e identifica las estrategias principales para alcanzarlas. Suministra un marco dentro del cual se pueden coordinar las actividades del sector farmacéutico. Abarca los sectores tanto público como privado, e implica a todos los protagonistas del ámbito farmacéutico. (párr.1)
-
-    p.mb-4 Y el documento CONPES 155 de 2012, explica cómo se realizó la construcción de esta política en nuestro país:
-
+    p.mb-4(data-aos="fade-right") Y el documento CONPES 155 de 2012, explica cómo se realizó la construcción de esta política en nuestro país:
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .cajon.customColorA.p-4.mb-4          
           p.mb-0 La Política Farmacéutica (PF) fue formulada en el marco de los principios constitucionales asociados al derecho a la salud y de aquellos elementos de desarrollo del sector industrial farmacéutico que faciliten el cumplimiento de este derecho. La Política se encuentra articulada y responde a los objetivos planteados en el Plan Nacional de Desarrollo 2010-2014 Prosperidad para Todos.
             br
             br
             | La construcción de la política se sustentó en una metodología que partió por identificar las necesidades en salud relacionadas con el acceso a medicamentos y la calidad de la atención, los elementos industriales y de mercado que lo afectan o facilitan, los asuntos ambientales y de ciencia y tecnología, el cumplimiento de los principios rectores de la reforma del sistema de salud; seguidos por la revisión de los avances de la aplicación del documento de Política Nacional Farmacéutica de 2003, además de la revisión de recomendaciones de organismos internacionales y aquellas mejores prácticas de otras latitudes, pertinentes y aplicables a nuestra realidad nacional. La política se diseñó con un enfoque participativo, en el que se consultaron representantes de gremios, organizaciones de la sociedad civil, pacientes, academia y expertos. (p.4)
-
     separador
-
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Antecedentes de la Política Farmacéutica Nacional
-
-    p.mb-5 La siguiente línea de tiempo nos presenta los antecedentes de la Política Farmacéutica Nacional, desarrollada entre los años 70 hasta la actualidad:
-
-    LineaTiempoA.color-secundario.mb-5(:datos="datosLineaTiempoA").mb-5
-
+    p.mb-5(data-aos="fade-right") La siguiente línea de tiempo nos presenta los antecedentes de la Política Farmacéutica Nacional, desarrollada entre los años 70 hasta la actualidad:
+    LineaTiempoA.color-secundario.mb-5(:datos="datosLineaTiempoA")(data-aos="fade-left")
     separador
-
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Marco conceptual y enfoque
-      
     .tarjeta.gradient_A.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0(data-aos="fade-right")
           img(src="@/assets/componentes/infografia.svg", style="width:300px;").m-auto
-
-        .col-md.col-lg-6
+        .col-md.col-lg-6(data-aos="fade-left")
           .titulo-segundo
             h2 Marco conceptual y enfoque
           p.mb-4 Existen tres enfoques que orientan la propuesta de la Política Farmacéutica Nacional, los cuales fueron recomendados por organismos internacionales y tomados de diferentes modelos de políticas farmacéuticas desarrollados en otros países.
             br
             br
             | Conozcamos cuáles son esos tres enfoques.
-          
           a.boton.color-acento-botones(:href="obtenerLink('downloads/Marco_Conceptual_Enfoque.pdf')" target="_blank" type="application/pdf")
             span.clr_sistem Descargar
             i.clr_sistem.fas.fa-file-download
-
     separador
-
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Diagnóstico de la situación farmacéutica nacional
-
     .row.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src="@/assets/tema2/img_2_3_01.svg", alt="alt").m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p El documento CONPES 115 de 202, presenta como diagnóstico de la situación farmacéutica nacional:
-        
         p “El acceso inequitativo a los medicamentos y la deficiente calidad de la atención”. 
-
         p Este problema se atribuye a cinco grandes debilidades con sus subcomponentes y, por lo tanto, se resume en el siguiente esquema:
-
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
           h5 Figura 1
-          span Debilidades de la política farmacéutica nacional      
-        
+          span Debilidades de la política farmacéutica nacional
         figure.mb-5
-          img(src="@/assets/tema2/img_2_3_02.svg", alt="alt", style="width:1000px;").m-auto 
-
+          img(src="@/assets/tema2/img_2_3_02.svg", alt="alt", style="width:1000px;").m-auto
         p.text-center Nota. Sena (2021)
-
     separador
-
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Estrategias para contrarrestar las debilidades de la Política Farmacéutica Nacional  
-
     .row.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src="@/assets/tema2/img_2_3_03.svg", alt="alt").m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Conocemos cuáles son las debilidades de la Política Farmacéutica Nacional, ahora necesitamos implementar estrategias para contrarrestarlas.
         .cajon.customColorB.p-4.mb-4
           p.mb-0 Según el documento CONPES 115 DE 2012, el Plan de Implementación se formula a diez años (2012 – 2021) a través de las diez grandes estrategias con sus actividades y sub-actividades, las cuales estudiaremos a continuación. 
-
-    .tarjeta.tarjeta--gris.p-4.mb-5    
-      PasosB.color-secundario
-
-        .row(titulo="").justify-content-center.mt-3
+    .tarjeta.tarjeta--gris.p-4(data-aos="fade-right")
+      LineaTiempoC.color-secundario
+        .row(titulo="1").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Información oportuna que genera confianza, que sea pública, y se relacione con el acceso, precios, uso y calidad de los productos farmacéuticos]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Sistema Nacional de Información Farmacéutica sobre acceso, uso, calidad y precios.
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Sistema de reporte de gastos de la industria farmacéutica.
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Creación vademécum Nacional del POS.
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Sistema de información INVIMA para registros sanitarios.
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="2").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Institucionalidad eficaz, eficiente y coherente]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Sistema que evalúe las tecnologías farmacéuticas.
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Sistematización de la información.
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="3").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Adecuación de la oferta y las competencias del recurso humano del sector farmacéutico]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Implementación de un registro de droguerías y farmacias y servicios farmacéuticos, para promover la dispensación segura y el uso racional de medicamentos.
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Definición de competencias en farmacia y farmacología.
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="4").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Instrumentos para la regulación de precios de medicamentos y monitoreo del mercado]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
-                | Herramientas para la regulación de precios. 
-                             
-        .row(titulo="").justify-content-center.mt-3
+                | Herramientas para la regulación de precios.       
+        .row(titulo="5").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Fortalecimiento de la rectoría y del sistema de vigilancia, con enfoque en gestión de riesgos]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Fortalecimiento del Ministerio de Salud, INVIMA, de la Superintendencia Nacional de Salud y otras entidades, del sistema de vigilancia en salud.
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="6").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Compromiso con la sostenibilidad ambiental y el aprovechamiento de la biodiversidad]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Procesos de producción sustentables, de medicamentos basados en el aprovechamiento de la biodiversidad.   
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="7").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Adecuación de la oferta de medicamentos a las necesidades de salud nacional y regional]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Estímulo a la investigación; el desarrollo y la producción de medicamentos estratégicos; la promoción de la competencia (genéricos) de medicamentos, y la disponibilidad nacional de medicamentos.
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="8").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Desarrollo e implementación de programas especiales de acceso a medicamentos]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Se propone el desarrollo de modelos que incorporen elementos como: la negociación centralizada de precios, la logística moderna y los programas de gestión de beneficios de medicamentos.  
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="9").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Diseño de redes de servicios farmacéuticos]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Programa de incentivos a la habilitación y mejoramiento de la oferta de servicios farmacéuticos. 
-
-        .row(titulo="").justify-content-center.mt-3
+        .row(titulo="10").justify-content-center.mt-3
           .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src='@/assets/tema2/img_2_4_01.svg', alt='Texto que describa la imagen')                   
+              img(src='@/assets/tema2/img_2_4_01.svg',style="width:350px", alt='Texto que describa la imagen').m-auto
           .col-lg
             p #[strong Promoción del uso adecuado de los medicamentos]
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Prescripción electrónica de medicamentos No POS.  
-              li 
+              li.d-flex
                 i.fas.fa-atom
                 | Estrategia para mejorar el conocimiento de los profesionales de la salud y la población.            
-              li 
+              li.d-flex
                 i.fas.fa-atom
-                | Campañas de promoción y prevención.             
-       
-              
-       
-
-
-   
+                | Campañas de promoción y prevención.
 
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema2',
+  components: { LineaTiempoC },
   data: () => ({
     datosLineaTiempoA: [
       {
@@ -290,5 +250,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass" scoped></style>

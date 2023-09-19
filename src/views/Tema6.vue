@@ -2,21 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Ética profesional del Tecnólogo en Regencia de Farmacia
-
-    p.mb-5 Es importante que, la normatividad que reglamenta el ejercicio de la profesión del Tecnólogo en Regencia de Farmacia, se cumpla a cabalidad para: administrar, coordinar y controlar los procesos de selección, adquisición, recepción, almacenamiento, distribución, dispensación, promoción y uso racional, que incluyan calidad en el trato al paciente y a la comunidad en general, en los establecimientos farmacéuticos, farmacias ambulatorias y hospitalarias, de baja complejidad.
-
-    figure.mb-5
+    p.mb-5(data-aos="fade-right") Es importante que, la normatividad que reglamenta el ejercicio de la profesión del Tecnólogo en Regencia de Farmacia, se cumpla a cabalidad para: administrar, coordinar y controlar los procesos de selección, adquisición, recepción, almacenamiento, distribución, dispensación, promoción y uso racional, que incluyan calidad en el trato al paciente y a la comunidad en general, en los establecimientos farmacéuticos, farmacias ambulatorias y hospitalarias, de baja complejidad.
+    figure.mb-5(data-aos="fade-left")
       img(src="@/assets/tema6/img_6_01.svg", alt="alt", style="width:950px;"
       ).m-auto
-    
-    p.mb-5 Otras funciones y responsabilidades del Tecnólogo en Regencia de Farmacia son:
-
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") Otras funciones y responsabilidades del Tecnólogo en Regencia de Farmacia son:
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-10.mb-4
         .tarjeta.customColorB.p-4
           .row.align-items-center
@@ -173,8 +168,6 @@
             .col-auto.d-none.d-lg-flex
               figure
                 img(src="@/assets/tema6/img_6_14.svg", alt="alt", style="width:90px;").m-auto
-    
-    
 
 </template>
 
