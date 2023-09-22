@@ -317,7 +317,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          nombre: 'Claudia Patricía Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -334,7 +334,7 @@ export default {
       autores: [
         {
           nombre: 'Edwing Amir Moreno Moreno',
-          cargo: 'Experta temático',
+          cargo: 'Experto temático',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

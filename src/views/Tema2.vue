@@ -55,8 +55,7 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          h5 Figura 1
-          span Debilidades de la política farmacéutica nacional
+          p.mb-0 #[b Figura 1]. span Debilidades de la política farmacéutica nacional
         figure.mb-5
           img(src="@/assets/tema2/img_2_3_02.svg", alt="alt", style="width:1000px;").m-auto
         p.text-center Nota. Sena (2021)
@@ -198,10 +197,8 @@
 </template>
 
 <script>
-import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema2',
-  components: { LineaTiempoC },
   data: () => ({
     datosLineaTiempoA: [
       {

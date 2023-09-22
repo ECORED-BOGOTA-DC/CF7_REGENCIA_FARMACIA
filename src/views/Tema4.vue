@@ -18,8 +18,7 @@
     .row.justify-content-center
       .col-lg-9(data-aos="fade-down")
         .titulo-sexto.color-acento-botones.mb-5
-          h5 Figura 5
-          span Secuencia de los procesos generales del servicio y establecimiento farmacéutico
+          p.mb-0 #[b Figura 5]. Secuencia de los procesos generales del servicio y establecimiento farmacéutico
         figure
           img(src="@/assets/tema4/img_4_02.svg", alt="alt", style="width:700px;").m-auto
         p.text-center Nota. Sena (2021)
@@ -389,7 +388,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   data: () => ({
     datosSlyder: [
       {

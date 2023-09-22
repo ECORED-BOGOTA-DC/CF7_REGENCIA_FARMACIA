@@ -100,8 +100,7 @@
     .row.justify-content-center.mb-5
       .col-lg-12(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          h5 Figura 2
-          span Uso seguro de los medicamentos
+          p.mb-0 #[b Figura 2]. Uso seguro de los medicamentos
         figure.mb-5
           img(src="@/assets/tema3/img_3_03.svg", alt="alt", style="width:1100px").m-auto
         p.text-center Nota. Sena (2021)
@@ -117,8 +116,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
         .titulo-sexto.color-acento-botones
-          h5 Figura 3
-          span Información O.M.S relacionada con los errores de dispensación y su costo
+          p.mb-0 #[b Figura 3]. Información O.M.S relacionada con los errores de dispensación y su costo
         .cajon.customColorA.p-4.mb-4
           p.mb-0 La Organización Mundial de la Salud (OMS), informó que los errores en dispensación generan un costo anual de #[strong(style="color:#7E5EE3;") US$42.000 millones, en un mundo en el que cuatro de cada diez pacientes sufren complicaciones en la atención primaria de la salud y en los servicios ambulatorios]. Los errores más frecuentes y perjudiciales, advertía la entidad, se encuentran relacionados con el diagnóstico, la prescripción y el uso de medicamentos.
         figure.mb-3
@@ -128,8 +126,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Figura 4
-          span Principales causas de los errores en la dispensación de productos farmacéuticos
+          p.mb-0 #[b Figura 4]. Principales causas de los errores en la dispensación de productos farmacéuticos
         figure.mb-5
           img(src="@/assets/tema3/img_3_06.svg", alt="alt", style="width:1200px;").m-auto
         p.text-center Nota. <a href="https://www.mincit.gov.co/" target="_blank"> https://bit.ly/2U3speP </a>
