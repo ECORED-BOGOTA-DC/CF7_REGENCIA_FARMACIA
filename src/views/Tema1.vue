@@ -38,7 +38,7 @@
                   img(src='@/assets/tema1/img_T3.jpg', style="width:450px", alt='Texto que describa la imagen').m-auto
               .col-lg-4
                 h4 Los días del papiro de Ebers (1500 a. C.)
-                p Se creó el primer documento soporte basado en 800 prescripciones y 700 medicinas. Se conocieron los primeros Jefes de producción y personas que preparaban las medicinas.
+                p Se creó el primer documento soporte basado en 800 prescripciones y 700 medicinas. Se conocieron los primeros jefes de producción y personas que preparaban las medicinas.
             .row.justify-content-center.mt-3(titulo="300 a. C.")       
               .col-lg-6.mb-4.mb-lg-0
                 figure
@@ -107,7 +107,7 @@
                 figure
                   img(src='@/assets/tema1/img_T13.jpg', style="width:450px", alt='Texto que describa la imagen').m-auto
               .col-lg-6
-                h4 Siglo XXI - La Farmacia de hoy y mañana
+                h4 La Farmacia de hoy y mañana
                 p A inicios del siglo 21, la farmacia logró especializarse profundamente en gran parte de sus ámbitos de aplicación, con múltiples e interesantes cambios: hospitalario, atención primaria en salud, administración de los servicios farmacéuticos, centros de investigación, la industria farmacéutica y el conocimiento impartido por los docentes.
                   br
                   br

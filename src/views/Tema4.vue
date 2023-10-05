@@ -217,7 +217,7 @@
         ul.lista-ul--color.ms-4
           li 
             i.fas.fa-atom
-            | Un Químico Farmacéutico, cuando el servicio farmacéutico se presenta de alta y mediana complejidad
+            | Un Químico Farmacéutico, cuando el servicio farmacéutico se presenta de alta y mediana complejidad.
           li 
             i.fas.fa-atom
             | Un Químico Farmacéutico o un Tecnólogo en Regencia de Farmacia, cuando el servicio farmacéutico se presenta de baja complejidad.

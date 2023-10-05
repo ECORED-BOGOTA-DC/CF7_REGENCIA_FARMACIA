@@ -48,7 +48,7 @@
             | El Decreto 786 de 2016 para la reglamentación del Servicio Farmacéutico.
           li.d-flex
             i.fas.fa-atom
-            | La Resolución 1403 de 2007 y sus respectivas modificaciones (Resolución 2955/07) la cual determina el Modelo de Gestión del Servicio Farmacéutico y adopta el Manual de Condiciones Esenciales y Procedimientos)
+            | La Resolución 1403 de 2007 y sus respectivas modificaciones (Resolución 2955/07) la cual determina el Modelo de Gestión del Servicio Farmacéutico y adopta el Manual de Condiciones Esenciales y Procedimientos.
         p Así mismo el INVIMA garantiza que se cumpla con la normatividad.
         p Por su parte, el Ministerio de la Protección Social definió, según el grado de complejidad, quiénes son los profesionales involucrados en la Dirección Técnica de los servicios y establecimientos farmacéuticos, así:
         ul.lista-ul--color.ms-4
@@ -129,7 +129,7 @@
           p.mb-0 #[b Figura 4]. Principales causas de los errores en la dispensación de productos farmacéuticos
         figure.mb-5
           img(src="@/assets/tema3/img_3_06.svg", alt="alt", style="width:1200px;").m-auto
-        p.text-center Nota. <a href="https://www.mincit.gov.co/" target="_blank"> https://bit.ly/2U3speP </a>
+        p.text-center Nota. <a href="https://www.mincit.gov.co/" target="_blank"> https://www.mincit.gov.co/ </a>
     p.mb-0(data-aos="fade-right") En la figura anterior, se pudo observar que las causas más comunes se presentan en la etapa de revisión y entrega de los medicamentos, debido a que el principal error en dispensación es el de la equivocación en la lectura e interpretación de las características de los medicamentos: nombre, concentración y vías de administración.
 
 </template>
